@@ -1,6 +1,6 @@
 [
     {
-      "name": "rakeshcontainer",
-      "imageUri": "XXXXXXXXXX.dkr.ecr.ap-south-1.amazonaws.com/html-nginx:latest"
+      "name": "neo-user-container",
+      "imageUri": "351552566849.dkr.ecr.ap-south-1.amazonaws.com/code-pipeline-repo:latest"
     }
   ]
