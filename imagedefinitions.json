@@ -1,0 +1,6 @@
+[
+    {
+      "name": "rakeshcontainer",
+      "imageUri": "XXXXXXXXXX.dkr.ecr.ap-south-1.amazonaws.com/html-nginx:latest"
+    }
+  ]
