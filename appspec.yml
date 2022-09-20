@@ -6,10 +6,10 @@ files:
     overwrite: true
 hooks:
   BeforeInstall:
-    - location: scripts\docker.sh
+    - location: docker.sh
       timeout: 200
       runas: root
   AfterInstall:
-    - location: scripts\after.sh
+    - location: after.sh
       timeout: 200
       runas: root

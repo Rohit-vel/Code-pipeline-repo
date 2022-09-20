@@ -24,5 +24,6 @@ artifacts:
   files: 
     - imagedefinitions.json
     - appspec.yml
-    - /script/
+    - after.sh
+    - docker.sh
   
