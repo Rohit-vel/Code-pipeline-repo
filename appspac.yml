@@ -1,0 +1,16 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /root
+    overwrite: true
+hooks:
+  BeforeInstall:
+    - location: docker.sh
+      timeout: 200
+      runas: root
+  AfterInstall:
+    - location: after.sh
+      timeout: 200
+      runas: root
+ 
