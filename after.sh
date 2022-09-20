@@ -8,6 +8,6 @@ sudo docker rmi 351552566849.dkr.ecr.ap-south-1.amazonaws.com/code-pipeline-repo
 
 sudo docker pull 351552566849.dkr.ecr.ap-south-1.amazonaws.com/code-pipeline-repo:latest
 
-sudo docker run -itd 351552566849.dkr.ecr.ap-south-1.amazonaws.com/code-pipeline-repo:latest
+sudo docker run -itd -p 8080:80 351552566849.dkr.ecr.ap-south-1.amazonaws.com/code-pipeline-repo:latest
 
 sudo docker ps
