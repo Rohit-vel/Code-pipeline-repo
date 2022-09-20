@@ -21,4 +21,7 @@ phases:
       - "docker push 351552566849.dkr.ecr.ap-south-1.amazonaws.com/code-pipeline-repo:latest"
       - printf '[{"name":"neo-user-container","imageUri":"%s"}]' 351552566849.dkr.ecr.ap-south-1.amazonaws.com/code-pipeline-repo:latest > imagedefinitions.json
 artifacts:
-  files: imagedefinitions.json
+  files: 
+    - imagedefinitions.json
+    - appspec.yml
+  
