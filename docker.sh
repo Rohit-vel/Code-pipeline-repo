@@ -13,8 +13,6 @@ sudo ./install auto
 sudo service codedeploy-agent status 
 
 sudo systemctl enable codedeploy-agent
-sudo service nginx restart
-service httpd restart
 
 yum install docker -y
 service docker start
